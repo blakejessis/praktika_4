@@ -144,7 +144,9 @@ public class Company {
 
     public void print(int n) {
         for (int i = 0; i < n; i++) {
-            System.out.println(employees.get(i) + "  " + employees.get(i).position.getFinalSalary() + "  " + employees.get(i).position.getJobTitle() + "\n");
+            System.out.println(employees.get(i) + "  "
+                               + employees.get(i).position.getFinalSalary() + "  "
+                               + employees.get(i).position.getJobTitle() + "\n");
         }
     }
 }
